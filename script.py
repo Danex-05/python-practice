@@ -17,6 +17,10 @@ for file in files:
             
             shutil.copy(source, destination)
             print("file copied successfully")
+        else:
+            print("Directory does not exists")
+    else:
+        print("No files has the specified extension called " + ext)
         
 
 
